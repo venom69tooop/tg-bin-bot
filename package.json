@@ -1,0 +1,28 @@
+{
+  "name": "bins-su-tgbot",
+  "version": "1.0.0",
+  "description": "@BinsSuBot Telegram Bot Source Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ArnabXD/bins-su-tgbot.git"
+  },
+  "author": "@ArnabXD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/ArnabXD/bins-su-tgbot/issues"
+  },
+  "homepage": "https://gitlab.com/ArnabXD/bins-su-tgbot#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.2.0",
+    "iso-3166-1-alpha-2": "^1.0.0",
+    "qs": "^6.9.4",
+    "telegraf": "^3.38.0"
+  }
+}
